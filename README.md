@@ -3,7 +3,7 @@ A Unity collider visualization tool built with ScriptableRendererFeature, design
 
 [![license](https://img.shields.io/badge/LICENSE-MIT-green.svg)](LICENSE)
 ![unity-version](https://img.shields.io/badge/unity-6.0+-000.svg)
-[![releases](https://img.shields.io/github/release/kamahir0/ColliderVisualizer.svg)](https://github.com/kamahir0/ColliderVisualizer/releases)
+[![releases](https://img.shields.io/github/release/kamahir0-lilja/ColliderVisualizer.svg)](https://github.com/kamahir0-lilja/ColliderVisualizer/releases)
 
 ColliderVisualizer は、Unity6 の Universal Render Pipeline 向けに作られた、コライダー可視化ツールです。
 特に、RenderGraph 環境で使用するために実装されています。
@@ -20,7 +20,7 @@ ColliderVisualizer は、Unity6 の Universal Render Pipeline 向けに作られ
 3. 以下のURLを入力する
 
 ```
-https://github.com/kamahir0/ColliderVisualizer.git?path=src/ColliderVisualizer/Assets/ColliderVisualizer
+https://github.com/kamahir0-lilja/ColliderVisualizer.git?path=src/ColliderVisualizer/Assets/ColliderVisualizer
 ```
 
 またはPackages/manifest.jsonを開き、dependenciesブロックに以下を追記
@@ -28,7 +28,7 @@ https://github.com/kamahir0/ColliderVisualizer.git?path=src/ColliderVisualizer/A
 ```json
 {
     "dependencies": {
-        "com.kamahir0.collider-visualizer": "https://github.com/kamahir0/ColliderVisualizer.git?path=src/ColliderVisualizer/Assets/ColliderVisualizer"
+        "com.kamahir0.collider-visualizer": "https://github.com/kamahir0-lilja/ColliderVisualizer.git?path=src/ColliderVisualizer/Assets/ColliderVisualizer"
     }
 }
 ```
